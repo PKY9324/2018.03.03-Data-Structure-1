@@ -13,9 +13,9 @@ int matrixMult(void);
 int main() {
 
 	SortAndSwap();
-	printFactorial();
-	printFibonacci();
-	matrixMult();
+	//printFactorial();
+	//printFibonacci();
+	//matrixMult();
 
 	system("pause");
 }
@@ -63,6 +63,8 @@ int SortAndSwap(void) {
 	{
 		printf("%d ", array[i]);
 	}
+
+	free(array);
 
 	puts("\n");
 }
